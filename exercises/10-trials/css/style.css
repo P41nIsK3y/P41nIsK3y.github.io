@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.colorgreen{
+    color:green;
+}
+.colorpink{
+    color:#F711F7;
+}
+.colorred{
+    color:red;
+}
+.coloryellow{
+    color:goldenrod;
+}
+.colorblue{
+    color:blue;
+}
+#blue-background{
+    background-color: skyblue;
+}
+#yellow-background{
+    background-color:yellow;
+}
+.bold{
+    font-weight: bold;
+}
+.italics{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.fake-heading{
+    font-size: 36px;
+}
+.fake-heading2{
+    font-size: 12px;
+    font-weight: bolder;
+}
+.fake-heading3{
+    font-size: 48px;
+}
+.fake-heading4{
+    font-size: 24px;
+    font-style: italic;
+}
+#center{
+    text-align:center;
+}
