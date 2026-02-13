@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=Italianno&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/back-image.jpg");
+}
+.column {
+    max-width: 850px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(184, 238, 103);
+    border: solid;
+    border-radius: 70px;
+    border-color: rgb(255, 135, 135);
+    padding: 20px;
+}
+.image {
+    border-radius: 20px;
+    box-shadow: 5px 5px green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-style: dashed;
+  background-color: rgba(20, 189, 20, 0.397);
+  box-shadow: 3px 5px 5px;
+  padding-left: 10px;
+}
+p {
+  font-family: "IM Fell Great Primer", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+}
+h4 {
+  font-family: "IM Fell Great Primer", serif;
+  font-weight: 400;
+  font-weight: bold;
+  padding: 5px;
+}
+.text-center {
+    text-align: center;
+    font-weight: bold;
+}
+
