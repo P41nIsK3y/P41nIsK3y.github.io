@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Vend+Sans:wght@600&display=swap');
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.column {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom right, beige, brown);
+    padding: 20px;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    display: block;
+    border: solid;
+    border-color: brown;
+    border-radius: 40px;
+    border-width: 20px;
+    margin-bottom: 70px;
+}
+.button {
+    background-color: black;
+    color:white;
+    margin-left: 350px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    padding: 15px;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+#column1 {
+    background-color: rgba(20, 20, 236, 0.733);
+    padding-top: 5px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+#column2 {
+    background-color: rgba(226, 84, 41, 0.849);
+    padding-top: 5px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+#column3 {
+    background-color: teal;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+#heading1{
+    color: #EDD461;
+}
+#heading2{
+    color: #4ceed3;
+}
+#heading3{
+    color:#9C3900;
+}
+h3 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    text-align: center;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h6 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
