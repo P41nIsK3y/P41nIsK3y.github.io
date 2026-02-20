@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 body {
@@ -19,7 +19,7 @@ h1 {
     font-size: 50px;
     color: rgb(12, 112, 9);
 }
-a{
+a {
     text-decoration: none;
     padding: 20px;
     font-family: "Bubblegum Sans", sans-serif;
@@ -27,13 +27,13 @@ a{
     font-style: normal;
     font-size: 25px;
 }
-.left-text{
+.left-text {
     text-align: left;
     color: white;
     font-weight: bold;
     margin-right: auto;
 }
-.right-text{
+.right-text {
     text-align: right;
     color: white;
     text-transform: capitalize;
