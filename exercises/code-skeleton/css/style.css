@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: #001D42;
+    background: linear-gradient(
+        90deg,rgba(0, 29, 66, 1) 10%, 
+        rgba(105, 191, 35, 1) 50%, rgba(0, 70, 80, 1) 90%
+    );
+}
+#single-column {
+    max-width: 1000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 6px 3px rgba(105, 191, 35, 1) ;
+}
+#heading {
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+#images {
+    align-items: center;
+    display: flex;
+}
+#cta {
+    margin-top: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#cta h2 {
+    text-shadow: black 3px 3px;
+    color: rgba(105, 191, 35, 1);
+}
+.button-1, 
+.button-2 {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 3px 6px 3px rgba(105, 191, 35, 1) ;
+}
+.button-1 {
+    background-color: rgba(0, 29, 66, 1);
+    text-shadow: #054128 2px 2px;
+}
+.button-2 {
+    background-color: rgba(0, 70, 80, 1);
+    text-shadow: rgb(6, 29, 90) 2px 2px;
+}
+.team-1, 
+.team-2 {
+    flex: 1;
+    flex-direction: column;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 10px 5px rgba(105, 191, 35, 1) ;
+}
+.team-1 {
+    background-color: rgba(0, 29, 66, 1);
+    text-shadow: #054128 4px 4px;
+}
+.team-2 {
+    background-color: rgba(0, 70, 80, 1);
+    text-shadow: rgb(6, 29, 90) 4px 4px;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: black 8px 8px;
+    color: rgba(105, 191, 35, 1);
+}
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    word-spacing: 2px;
+}
+h1, 
+h2 {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a, 
+h3 {
+    font-family: "Karantina", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+p {
+    font-family: "Karantina", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
