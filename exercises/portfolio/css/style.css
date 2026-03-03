@@ -70,7 +70,7 @@ body {
     text-decoration: none;
 }
 .title {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
     text-shadow: #cecfcbc2 2px 3px;
 }
@@ -85,9 +85,10 @@ body {
     border-left: solid #0a1b38fb 2px;
     margin: 5px;
     text-align: center;
+    font-size: 3vw;
 }
 #hero .button {
-    margin-left: 10vw;
+    margin-left: 7vw;
     background-color: #9db9c26b;
 }
 #gallery img {
@@ -96,5 +97,5 @@ body {
     border: 10px inset #1d1f19 ;
 }
 h2 {
-    font-size: 3vw;
+    font-size: 4vw;
 }
