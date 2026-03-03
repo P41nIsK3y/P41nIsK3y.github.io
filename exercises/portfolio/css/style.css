@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #355591a4;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: solid #1d1f19 5px;
+    background-color: white;
+}
+#hero {
+    background-image: 
+        linear-gradient(to left, black 20%, #1d1f19 45%, #a7a8a336 60%),
+        url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    padding-bottom: 100px;
+    padding-right: 5vh;
+    height: 60vh;
+    color: white;
+    
+}
+#gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    border: 10px ridge #131820fb ;
+    padding: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10vh;
+    box-shadow: 5px 5px 2px #0a1b38fb;
+    background-color: white;
+}
+#cards {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-top: solid #0a1b38fb 5px;
+}
+.hero-content {
+    margin-right: 10vh; 
+    align-self: center;
+}
+.card-1, 
+.card-2,
+.card-3 {
+    flex: 1;
+    align-items: center;
+    border-left: solid #0a1b38fb 3px;
+}
+.button {
+    border: #0a1b38fb double 5px;
+    padding: 5px;
+    margin-top: 20vh;
+    text-transform: capitalize;
+    color: white;
+    background-color: #272727;
+    text-decoration: none;
+}
+.title {
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: #cecfcbc2 2px 3px;
+}
+#navbar a {
+    text-decoration: none;
+    color: #272727;
+    flex: 1;
+    font-weight: bold;
+    padding: 10px;
+}
+#navbar .items {
+    border-left: solid #0a1b38fb 2px;
+    margin: 5px;
+    text-align: center;
+}
+#hero .button {
+    margin-left: 10vw;
+    background-color: #9db9c26b;
+}
+#gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px inset #1d1f19 ;
+}
+h2 {
+    font-size: 3vw;
+}
