@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #a68f6586;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: solid #402B19 2vh;
+    background-color: #D9C382;
+    font-size: 3vw;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+#hero {
+    background-image: 
+        radial-gradient(
+            circle,rgba(217, 195, 130, 0.288) 15%,
+            rgba(64, 43, 25, 0.63) 54%
+        ),
+        url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    margin-bottom: 8vw;
+    padding-right: 5vh;
+    height: 60vh;
+    color: white;
+    border: #D9C382 ridge 3vh;
+    
+}
+#buttons {
+    display: flex;
+}
+#button-1, #button-2 {
+    background-color: #402B19;
+    border: 2vh ridge #D9C382;
+    padding: 2vh;
+    font-size: 4vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 1;
+    text-align: center;
+}
+.button, a {
+    text-decoration: none;
+    color: #F27F3D;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: #D94625 2px 2px;
+}
+.title {
+    flex: 1;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    width: 25vh;
+    text-align: justify;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    max-width: 40vh;
+}
