@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     border-bottom: solid rgb(128, 111, 166) 2vh;
+    padding: 2vh;
 }
 #background {
     background-color: rgb(189, 143, 192);
@@ -109,16 +110,12 @@ p {
     font-style: normal;
     font-size: 20px;
 }
-.left-text {
-    text-align: left;
-    color: white;
-    font-weight: bold;
-    margin-right: auto;
-}
+
 .right-text {
     text-align: right;
     color: white;
     text-transform: capitalize;
+    margin-left: 20px;
 }
 .logo {
     width: 30vh;
@@ -205,4 +202,7 @@ p {
 }
 .text3 {
     padding-top: 4vw;
+}
+#header a{
+    flex: 1;
 }
